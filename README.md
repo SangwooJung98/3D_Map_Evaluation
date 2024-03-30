@@ -35,12 +35,6 @@ C: crop
 S: save **add .pcl for filename extension **   
 ```
 
-### gps_base_crop_auto.py
-
-Automatically provides tightly cropped pointcloud.
-
-Adjust **threshold** in **remove_ground** to optimal value for better cropping results. (hyperparameter depending on your original pointcloud)
-
 ## Target pose estimation
 
 Apply **multi_test_0130_1.py** on tightly cropped pointcloud.

@@ -78,8 +78,15 @@ Copy and paste each pose into **relative+absolute.py**
 4. Errors of each segment
 5. Relative error (the average of 4)
 
+## Contact
+This repository is provided for academic purposes. If you encounter technical problems, please contact  **<Sangwoo Jung: dan0130@snu.ac.kr>**.
 
-
-
-
-
+## BibTex
+```
+@article{hahn2024quantitative,
+  title={Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR (-Inertial) SLAM},
+  author={Hahn, Sanghyun and Oh, Seunghun and Jung, Minwoo and Kim, Ayoung and Jung, Sangwoo},
+  journal={arXiv preprint arXiv:2408.09727},
+  year={2024}
+}
+```

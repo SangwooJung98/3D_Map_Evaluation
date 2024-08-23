@@ -1,5 +1,15 @@
 # 3D_Map_Accuracy_Evaluation
-Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM
+## Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM
+
+### Authors
+**Sanghyun Hahn**, **Seunghun Oh**, **[Minwoo Jung](https://minwoo0611.github.io/about)**, **[Ayoung Kim](https://ayoungk.github.io)** and **[Sangwoo Jung](https://sangwoojung98.github.io)***. 
+
+### Paper
+
+This repository includes the Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM, which is accepted to IEEE ICCAS 2024. 
+
+**[[arXiv]](https://arxiv.org/abs/2408.09727) [[BibTex]](#bibtex)**
+
 
 ## Setup
 python 3.11
@@ -79,7 +89,7 @@ Copy and paste each pose into **relative+absolute.py**
 5. Relative error (the average of 4)
 
 ## Contact
-This repository is provided for academic purposes. If you encounter technical problems, please contact  **<Sangwoo Jung: dan0130@snu.ac.kr>**.
+This repository is provided for academic purposes. If you encounter technical problems, please contact  **<SangSangwoo Jung: dan0130@snu.ac.kr>**.
 
 ## BibTex
 ```

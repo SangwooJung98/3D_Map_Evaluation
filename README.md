@@ -87,11 +87,11 @@ Copy and paste each pose into **relative_absolute.py**
 
 
 **relative_absolute.py** returns 
-**1.** frame translation/rotation values
-**2.** Distance errors between corresponding targets
-**3.** Absolute error (the average of **2**)
-**4.** Errors of each segment
-**5.** Relative error (the average of **4**)
+1. frame translation/rotation values
+2. Distance errors between corresponding targets
+3. Absolute error (the average of **2**)
+4. Errors of each segment
+5. Relative error (the average of **4**)
 
 ## Contact
 This repository is provided for academic purposes. If you encounter technical problems, please contact  **<Sanghyun Hahn: steve0221@snu.ac.kr>, <Seunghun Oh: alvin0808@snu.ac.kr>, or <Sangwoo Jung: dan0130@snu.ac.kr>**.

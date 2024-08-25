@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 This process can be tested with our demo pointcloud, **automotive_3.pcd**.
 
-Enter the GPS pose that you wish to crop around in **target_pos** : the code will automatically provide and visualize the loosely cropped pointcloud.
+Enter the GPS pose that you wish to crop around into **target_pos** : the code will automatically provide and visualize the loosely cropped pointcloud.
 
 Then, crop the target tightly manually to obtain the tightly cropped pointcloud.
 
@@ -78,7 +78,7 @@ Subtract the rtk origin pose from the rtk target pose for the ground truth pose.
 <img src=https://github.com/hshhahn/2023_winter_urop/assets/122349813/d14f5211-8338-4c66-bb90-397a0aef9a8c width="70%" height="60%">
 
 
-Copy and paste each pose into **relative+absolute.py**
+Copy and paste each pose into **relative_absolute.py**
 
 
 ### Error Metrics 
@@ -86,15 +86,15 @@ Copy and paste each pose into **relative+absolute.py**
 ![image](https://github.com/hshhahn/2023_winter_urop/assets/122349813/d0dac612-244a-4b4a-9960-1883afb8dc69)
 
 
-**relative+absolute.py** returns 
-1. frame translation/rotation values
-2. Distance errors between corresponding targets
-3. Absolute error (the average of 2)
-4. Errors of each segment
-5. Relative error (the average of 4)
+**relative_absolute.py** returns 
+**1.** frame translation/rotation values
+**2.** Distance errors between corresponding targets
+**3.** Absolute error (the average of **2**)
+**4.** Errors of each segment
+**5.** Relative error (the average of **4**)
 
 ## Contact
-This repository is provided for academic purposes. If you encounter technical problems, please contact  **<Sanghyun Hahn: steve0221@snu.ac.kr>, <Seunghun Oh: alvin0808@snu.ac.kr>, or <SangSangwoo Jung: dan0130@snu.ac.kr>**.
+This repository is provided for academic purposes. If you encounter technical problems, please contact  **<Sanghyun Hahn: steve0221@snu.ac.kr>, <Seunghun Oh: alvin0808@snu.ac.kr>, or <Sangwoo Jung: dan0130@snu.ac.kr>**.
 
 ## BibTex
 ```

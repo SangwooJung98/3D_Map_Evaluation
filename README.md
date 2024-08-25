@@ -2,7 +2,7 @@
 ## Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR(-Inertial) SLAM
 
 ### Authors
-**Sanghyun Hahn**<sup>†</sup>, **Seunghun Oh**<sup>†</sup>, **[Minwoo Jung](https://minwoo0611.github.io/about)**, **[Ayoung Kim](https://ayoungk.github.io)** and **[Sangwoo Jung](https://sangwoojung98.github.io)**<sup>*</sup>. 
+**Sanghyun Hahn(https://hshhahn.github.io)**<sup>†</sup>, **Seunghun Oh**<sup>†</sup>, **[Minwoo Jung](https://minwoo0611.github.io/about)**, **[Ayoung Kim](https://ayoungk.github.io)** and **[Sangwoo Jung](https://sangwoojung98.github.io)**<sup>*</sup>. 
 
 ### Paper
 
@@ -22,9 +22,11 @@ pip install -r requirements.txt
 
 ### target_manual.py
 
-enter target GPS pose at **target_pos** : will automatically provide loosely cropped pointcloud.
+This process can be tested with our demo pointcloud, **automotive_3.pcd**.
 
-Crop the target tightly manually.
+Enter the GPS pose that you wish to crop around in **target_pos** : the code will automatically provide and visualize the loosely cropped pointcloud.
+
+Then, crop the target tightly manually to obtain the tightly cropped pointcloud.
 
 
 
@@ -47,11 +49,13 @@ S: save **add .pcl for filename extension **
 
 ## Target pose estimation
 
-Apply **multi_test_0130_1.py** on tightly cropped pointcloud.
+### target_pose_est.py
+
+This process can be tested with our demo tightly cropped pointcloud, **cropped_1.ply**.
 
 K-means Clustering, RANSAC, SVD is applied to the tightly cropped pointcloud.
 
-Returns x, y position of the target. (=estimated target pose) 
+As a result, the script returns the x, y position of the target. (=estimated target pose) 
 
 While running, # of iterations and total attempts are visualized.
 
@@ -68,6 +72,7 @@ Prepare the ground truth pose and estimated target pose for each target.
 ### Ground Truth
 
 The ground truth can be obtained from the GPS sensor attatched to the target. 
+
 Subtract the rtk origin pose from the rtk target pose for the ground truth pose.   
 
 <img src=https://github.com/hshhahn/2023_winter_urop/assets/122349813/d14f5211-8338-4c66-bb90-397a0aef9a8c width="70%" height="60%">
@@ -89,7 +94,7 @@ Copy and paste each pose into **relative+absolute.py**
 5. Relative error (the average of 4)
 
 ## Contact
-This repository is provided for academic purposes. If you encounter technical problems, please contact  **<Sanghyun Hahn: steve0021@snu.ac.kr>, <Seunghun Oh: alvin0808@snu.ac.kr>, or <SangSangwoo Jung: dan0130@snu.ac.kr>**.
+This repository is provided for academic purposes. If you encounter technical problems, please contact  **<Sanghyun Hahn: steve0221@snu.ac.kr>, <Seunghun Oh: alvin0808@snu.ac.kr>, or <SangSangwoo Jung: dan0130@snu.ac.kr>**.
 
 ## BibTex
 ```

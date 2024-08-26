@@ -53,7 +53,7 @@ def custom_kmeans(points, n_iterations=100):
 
     return labels
 
-point_cloud = "cropped_1.ply"
+point_cloud = "cropped_pointcloud.ply"
 pcd = o3d.io.read_point_cloud(point_cloud)
 pcd_array = np.asarray(pcd.points)
 

@@ -2,7 +2,7 @@ import open3d as o3d
 import numpy as np
 
 # Load pcd
-point_cloud_path = "automotive_3.pcd"
+point_cloud_path = "original_pointcloud.pcd"
 pcd = o3d.io.read_point_cloud(point_cloud_path)
 pcd_array = np.asarray(pcd.points)
 

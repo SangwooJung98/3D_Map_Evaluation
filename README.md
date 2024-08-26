@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ### target_manual.py
 
-This process can be tested with our demo pointcloud, **automotive_3.pcd**.
+This process can be tested with our demo pointcloud, **original_pointcloud.pcd**.
 
 Enter the GPS pose that you wish to crop around into **target_pos** : the code will automatically provide and visualize the loosely cropped pointcloud.
 
@@ -51,7 +51,7 @@ S: save **add .pcl for filename extension **
 
 ### target_pose_est.py
 
-This process can be tested with our demo tightly cropped pointcloud, **cropped_1.ply**.
+This process can be tested with our demo tightly cropped pointcloud, **cropped_pointcloud.ply**.
 
 K-means Clustering, RANSAC, SVD is applied to the tightly cropped pointcloud.
 

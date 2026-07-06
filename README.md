@@ -98,10 +98,12 @@ This repository is provided for academic purposes. If you encounter technical pr
 
 ## BibTex
 ```
-@article{hahn2024quantitative,
+@inproceedings{hahn2024quantitative,
   title={Quantitative 3D Map Accuracy Evaluation Hardware and Algorithm for LiDAR (-Inertial) SLAM},
   author={Hahn, Sanghyun and Oh, Seunghun and Jung, Minwoo and Kim, Ayoung and Jung, Sangwoo},
-  journal={arXiv preprint arXiv:2408.09727},
-  year={2024}
+  booktitle={2024 24th International Conference on Control, Automation and Systems (ICCAS)},
+  pages={568--572},
+  year={2024},
+  organization={IEEE}
 }
 ```
